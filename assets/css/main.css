@@ -7,7 +7,7 @@
 }
 
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 3px;
 }
 
 ::-webkit-scrollbar:horizontal {
@@ -36,6 +36,11 @@ body {
   border-radius: 17.5px;
   text-align: center;
   line-height: 30px;
+}
+
+.menu:hover {
+  background-color: #e9ecef;
+  color: #212529;
 }
 
 .splash {
@@ -212,6 +217,9 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
   .splash {
     width: 100vw;
     height: 100vh;
